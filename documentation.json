@@ -40,9 +40,9 @@
                 "path": "360-views"
               },
               {
-                "title": "Features",
-                "path": "features",
-                "icon": "file-text"
+                "title": "360 Views Reference",
+                "path": "360-views-reference",
+                "icon": "book-marked"
               }
             ]
           }
