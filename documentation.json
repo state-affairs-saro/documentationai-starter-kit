@@ -36,6 +36,10 @@
             "icon": "layers",
             "pages": [
               {
+                "title": "360 Views",
+                "path": "360-views"
+              },
+              {
                 "title": "Features",
                 "path": "features",
                 "icon": "file-text"
