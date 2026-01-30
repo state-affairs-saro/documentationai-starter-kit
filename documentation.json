@@ -39,11 +39,6 @@
                 "title": "Features",
                 "path": "features",
                 "icon": "file-text"
-              },
-              {
-                "title": "Integrations",
-                "path": "integrations",
-                "icon": "link"
               }
             ]
           }
@@ -88,6 +83,46 @@
               {
                 "title": "Organizing Projects",
                 "path": "help-center/guides/organizing-projects"
+              },
+              {
+                "title": "Access & Credentials",
+                "path": "help-center/guides/access-credentials"
+              },
+              {
+                "title": "Billing & Invoice Issues",
+                "path": "help-center/guides/billing-issues"
+              },
+              {
+                "title": "Understanding Multiple Charges",
+                "path": "help-center/guides/multiple-charges"
+              },
+              {
+                "title": "Subscription Management",
+                "path": "help-center/guides/subscription-management"
+              },
+              {
+                "title": "Self-Service Portal",
+                "path": "help-center/guides/self-service-portal"
+              },
+              {
+                "title": "Self-Service Portal: Billing & Seats",
+                "path": "help-center/guides/self-service-portal-billing"
+              },
+              {
+                "title": "Self-Service Portal: Team Members",
+                "path": "help-center/guides/self-service-portal-team-members"
+              },
+              {
+                "title": "Self-Service Portal: Profile Settings",
+                "path": "help-center/guides/self-service-portal-profile-settings"
+              },
+              {
+                "title": "Self-Service Portal: Label Settings",
+                "path": "help-center/guides/self-service-portal-label-settings"
+              },
+              {
+                "title": "Quick Reference",
+                "path": "help-center/guides/quick-reference"
               }
             ]
           }

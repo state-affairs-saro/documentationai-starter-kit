@@ -1,0 +1,114 @@
+---
+title: "Release History"
+description: "Track product updates, improvements, and fixes over time."
+---
+
+## Overview
+
+This page is the canonical log of product releases. Use it to summarize what changed in each version so readers can quickly see what was added, changed, or fixed.
+
+When you publish a new release, add an entry below using the provided templates.
+
+<Callout kind="info">
+
+This is a placeholder changelog. Update this page as you ship new versions. Do not forget to keep the [Introduction](/introduction) and [Features](/features) pages aligned with any major changes.
+
+</Callout>
+
+## How to add a new release entry
+
+Use the `<Update>` component for each release. Each update should include:
+
+- A **label** (typically the release date in `YYYY-MM-DD` format)
+- A **description** (usually the version number or a short title)
+- Optional **tags** (for example: `breaking`, `feature`, `bugfix`, `security`, `improvement`)
+
+Below is a commented example you can copy and adapt when you publish a new release.
+
+<Update label="2025-01-01" description="v1.0.0" tags={["feature", "improvement"]}>
+
+### Added
+
+- Initial public release of the product.
+- Document the main user flows on the [Introduction](/introduction) page.
+- Highlight key capabilities on the [Features](/features) page.
+
+### Changed
+
+- Describe significant behavior changes here.
+- Note any updates to configuration defaults or UI changes.
+
+### Fixed
+
+- List resolved bugs or reliability improvements.
+- Reference any known issues that are now closed.
+
+</Update>
+
+## Template for future releases
+
+Use this skeleton as a starting point when creating a real entry. Replace the placeholder values and remove any sections that do not apply.
+
+```mdx
+<Update label="YYYY-MM-DD" description="vX.Y.Z" tags={["feature", "bugfix"]}>
+
+### Added
+
+- Short, action-focused bullet describing a new feature.
+- Link to updated docs, for example: [Introduction](/introduction) or [Features](/features).
+
+### Changed
+
+- Note any behavior or UX changes users should be aware of.
+- Mention if configuration or API defaults were modified.
+
+### Fixed
+
+- Summarize bugs or regressions that were addressed.
+- Include any performance or stability improvements.
+
+</Update>
+```
+
+<Callout kind="tip">
+
+Keep entries concise and user-focused. Aim to answer: *What do I need to know or do differently after this release?*
+
+</Callout>
+
+## Organizing entries over time
+
+You can group releases by **version** or by **time period**, depending on your release cadence.
+
+### Option 1: Version-based
+
+Use one `<Update>` per tagged version (for example, `v1.1.0`, `v1.2.0`):
+
+- Works well when you publish discrete, named releases.
+- Makes it easy to link from other docs directly to a specific version entry.
+
+### Option 2: Month-based
+
+Use one section per month and include one or more `<Update>` components inside:
+
+```mdx
+## January 2025
+
+<Update label="2025-01-10" description="Improvements and fixes" tags={["improvement", "bugfix"]}>
+
+### Added
+
+- Placeholder item.
+
+### Changed
+
+- Placeholder item.
+
+### Fixed
+
+- Placeholder item.
+
+</Update>
+```
+
+Choose one structure and keep it consistent so readers can scan the history quickly.
