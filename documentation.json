@@ -72,12 +72,7 @@
             "group": "Troubleshooting",
             "icon": "alert-triangle",
             "expandable": false,
-            "pages": [
-              {
-                "title": "Cannot View Documents",
-                "path": "help-center/troubleshooting/cannot-view-documents"
-              }
-            ]
+            "pages": []
           },
           {
             "group": "Guides",
@@ -101,8 +96,27 @@
                 "path": "help-center/guides/multiple-charges"
               },
               {
-                "title": "Subscription Management",
-                "path": "help-center/guides/subscription-management"
+                "group": "Subscription Management",
+                "icon": "credit-card",
+                "expandable": false,
+                "pages": [
+                  {
+                    "title": "Overview",
+                    "path": "help-center/guides/subscription-management"
+                  },
+                  {
+                    "title": "Check Your Subscriptions",
+                    "path": "help-center/guides/subscription-management-check-subscriptions"
+                  },
+                  {
+                    "title": "Cancel or Fix Duplicate Subscriptions",
+                    "path": "help-center/guides/subscription-management-cancel-or-fix-duplicates"
+                  },
+                  {
+                    "title": "Invoices and Autopay",
+                    "path": "help-center/guides/subscription-management-invoices-autopay"
+                  }
+                ]
               },
               {
                 "title": "Self-Service Portal",
